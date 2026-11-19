@@ -19,7 +19,7 @@
           version = "1.1.1";
           src = pkgs.fetchurl {
             url = "https://tmog.org/downloads/TaskManagerOG-${version}-x86_64.AppImage";
-            hash = "";
+            hash = "sha256-EqHy7WDCiwdJoT7q7EaW8kGkJftnFdnndHgHzmLTsTk=";
           };
           appimageContents = pkgs.appimageTools.extract {
             pname = "tmog";
